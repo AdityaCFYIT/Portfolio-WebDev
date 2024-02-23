@@ -1,0 +1,81 @@
+h1{
+   text-align: center;
+   color: aqua;
+   background-color: brown;
+}
+h1:hover{
+   color:brown;
+   background-color: aqua;
+}
+#fe:hover{
+      color: darkkhaki;
+      background-color: darkmagenta;
+      text-align: center;
+      font : 20px bold orange;
+}
+body{
+   background-color: blanchedalmond;
+}
+.container{
+   background-color: yellow;
+   color: red;
+   display:flex;
+   text-align: center;
+   justify-content:space-around;
+   text-decoration: dashed;
+   flex-direction: row;
+   flex-wrap:wrap ;
+   display: grid;
+   grid-gap: 9px 9px;
+   grid-template-columns: auto auto auto auto  ;
+}
+.box{   
+   font: 18px uppercase red;
+   background-color: aqua; 
+   height: 200px;
+   width:200px;   
+   border: 3px solid red;
+}
+#ii{
+   background-color: rgb(43, 226, 134);
+   color: rgba(110, 110, 256,1);
+}
+#ii:hover{
+  color: rgb(170, 168, 170);
+  background-color:  rgba(110, 110, 256,1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+.box:hover{
+   background-color: chartreuse;   
+   border:4px dashed rgb(3, 7, 5);
+   transform: translateX(3px);   
+   font-size: 20px; 
+}
+footer{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#edu{
+   color:rgb(0, 255, 13);
+   background-color: deeppink;
+   padding: 5px;
+}
+#edu:hover{
+   color:rgb(200, 198, 194);
+   background-color: rgb(220, 129, 18);
+   text-align: center;
+}
+#edio:hover{
+   color: red;
+   background-color: green;   
+}
+#exp{
+   background-color: greenyellow;
+   color: deeppink;   
+   display: flex;
+   justify-content: center;
+}
+#exp:hover{
+   background-color: rgb(255, 87, 20);
+   color: green;  
+}
